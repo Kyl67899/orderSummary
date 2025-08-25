@@ -51,6 +51,12 @@ body {
   font-weight: 800;
   padding: 10px;
   font-size: 25px;
+  text-align: center;
+}
+
+.title1{
+    font-size: 15px;
+    font-weight: 700;
 }
 
 .para {
@@ -69,6 +75,12 @@ body {
   width: 370px;
   margin-bottom: 10px;
   padding: 5px;
+}
+
+.price,
+span {
+  padding: 5px;
+  text-align: justify;
 }
 
 .inner__box .price span {
@@ -175,11 +187,11 @@ a.payment__btn:hover {
 
   .summary__img {
     height: 210px;
-    width: 360px;
+    width: 390px;
   }
 
   .box {
-    height: 600px;
+    height: 550px;
     width: 355px;
   }
 
@@ -190,6 +202,7 @@ a.payment__btn:hover {
   }
 
   .btn {
+    margin-top: 12px;
     width: 310px;
   }
 
