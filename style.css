@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+:root {
+  --text-color: #000;
+  --bg-card: hsl(225, 100%, 94%);
+  --bg-btn: hsl(245, 75%, 52%);
+  --bg-annual: hsl(225, 100%, 98%);
+  --color--text: hsl(224, 23%, 55%);
+  --color2: hsl(223, 47%, 23%);
+}
+
+body {
+  background-color: var(--bg-card);
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  max-width: 455px;
+  margin: 20px;
+}
+
+/* box */
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff;
+  border: 3px solid white;
+  border-radius: 20px;
+}
+
+/* image */
+.summary__img {
+  background-position: center;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.title {
+  color: var(--color2);
+  font-weight: 800;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.para {
+  color: #000;
+  padding: 20px 35px 20px 40px;
+}
+
+/* inner__box */
+.inner__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 15px;
+  background-color: var(--bg-annual);
+  width: 370px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.inner__box .price span {
+  display: flex;
+  flex-direction: row;
+}
+
+.inner__box .price .link {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 15px 15px;
+  background-color: var(--bg-btn);
+  width: 380px;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.btn .payment__btn {
+  color: #fff;
+}
+
+a.payment__btn {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a.payment__btn:hover {
+  text-decoration: underline;
+}
+
+.text {
+  color: var(--Grayish-blue);
+  padding: 0 35px 0 35px;
+}
+
+.cancel_btn {
+  width: 500px;
+}
+
+.cancel_btn .cancel__btn {
+  padding: 15px;
+  text-decoration: none;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  cursor: pointer;
+}
+
+.cancel_btn a.cancel__btn:hover {
+  text-decoration: underline;
+}
+
+/* footer */
+.attribution {
+  position: absolute;
+  font-size: 11px;
+  text-align: center;
+  padding-top: 580px;
+}
+
+.attribution a {
+  color: var(--gray-dark-blue);
+}
+
+/* responsive */
+
+/* moblie 375px */
+
+@media screen and (max-width: 375px) {
+  body {
+    min-height: 100vh;
+  }
+
+  .box {
+    padding: 15px;
+  }
+}
+
+/* desktop 1440px */
+
+@media screen and (max-width: 1440px) {
+}
