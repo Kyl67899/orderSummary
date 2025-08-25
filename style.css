@@ -193,9 +193,16 @@ a.payment__btn:hover {
     width: 310px;
   }
 
-  .inner_box {
-    width: 305px;
-    margin: none;
+  .inner__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 !important;
+    border-radius: 15px;
+    background-color: var(--bg-annual);
+    width: 350px;
+    margin-bottom: 10px;
+    padding: 5px;
   }
 
   .inner__box__1 {
